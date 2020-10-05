@@ -54,4 +54,4 @@ Make your first Pull Request and earn a free tee from GitHub!
 
 > **Note:** "Please Don't make any changes to README.MD
 
-#### Celebrate - you've done your first pull request!!
+## Celebrate - you've done your first pull request!!
