@@ -1,7 +1,5 @@
 # Hacktoberfest2020---its a very good project and get a free tshirt.
 
----
-
 Make your first Pull Request and earn a free tee from GitHub!
 
 ![Hacktoberfest 2020](osc_hacktoberfest2020.png)
@@ -53,4 +51,4 @@ Make your first Pull Request and earn a free tee from GitHub!
 
 - Star the repository if you like.
 
-#### Note:- Please don't make any changes in Readme.md
+**Note**:- "Please don't make any changes in Readme.md"
