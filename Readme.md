@@ -53,4 +53,6 @@ Make your first Pull Request and earn a free tee from GitHub!
 
 - Star the repository if you like.
 
-#### Note:- Please don't make any changes in Readme.md
+> **Note**:- "Please don't make any changes in Readme.md"
+
+## Celebrate - you've done your first pull request!!
