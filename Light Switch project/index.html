@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html lang="en">
+   <head>
+      <title>Bulb On Off</title>
+      <style>
+      h1 {
+	text-align: center;
+}
+#bulb {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 500px;
+	padding-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.myButton {
+	border-radius: 15px;
+	border: 1px solid #030721;
+	display: inline-block;
+	cursor: pointer;
+	background: #006400;
+	color: #ffffff;
+	font-family: Georgia;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 10px 40px;
+	text-decoration: none;
+	text-shadow: 2px 2px 7px #283466;
+	margin-left: 440px;
+	margin-top: 50px;
+}
+.myButton:hover {
+	background-color: #00ff00;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+.myButton1 {
+	border-radius: 15px;
+	border: 1px solid #030721;
+	display: inline-block;
+	cursor: pointer;
+	background: #8b0000;
+	color: #ffffff;
+	font-family: Georgia;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 10px 40px;
+	text-decoration: none;
+	text-shadow: 2px 2px 7px #283466;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.myButton1:hover {
+	background-color: red;
+}
+.myButton1:active {
+	position: relative;
+	top: 1px;
+}
+      </style>
+      <script> function bulbon() { document.getElementById("bulb").src="blubOn.gif"; document.getElementById("bulbstatus").element.innerHTML = "Bulb in On Now!"; } function bulboff() { document.getElementById("bulb").src="blubOff.gif"; } </script> 
+   </head>
+   <body>
+      <div>
+         <h1 id="bulbstatus">Bulb On Off in JavaScript</h1>
+         <img id="bulb" src="blubOff.gif"> <input type="button" class="myButton" value="Bulb On" onclick="bulbon()"> <input type="button" class="myButton1" value="Bulb Off" onclick="bulboff()"> 
+      </div>
+   </body>
+</html>

@@ -1,5 +1,4 @@
 # Hacktoberfest2020---its a very good project and get a free tshirt.
-
 ---
 
 Make your first Pull Request and earn a free tee from GitHub!
@@ -53,6 +52,10 @@ Make your first Pull Request and earn a free tee from GitHub!
 
 - Star the repository if you like.
 
+<<<<<<< HEAD
 > **Note**:- "Please don't make any changes in Readme.md"
+=======
+> **Note:** "Please Don't make any changes to README.MD
+>>>>>>> 8d9bed79b0293df951a844242a6fbafb2a3877f9
 
 ## Celebrate - you've done your first pull request!!
