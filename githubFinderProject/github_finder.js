@@ -8,12 +8,11 @@ const uRepo = document.querySelector('#userRepository');
 document.getElementById('input').addEventListener('submit', searchUser);
 
 function searchUser(e){
-    client_id = '02a15efc14e75442be2d';
-    client_secret = 'c47db7f97a57ffd9ba476cd062830fa63c2fe247';
+   
 
     const user = document.querySelector('#enterInput').value;
 
-    fetch(`https://api.github.com/users/${user}?client_id=${client_id}&client_secret=${client_secret}`)
+    fetch(`https://api.github.com/users/${user}`)
         .then(Response => {
             console.log(Response.status);
             if(!Response.ok){
