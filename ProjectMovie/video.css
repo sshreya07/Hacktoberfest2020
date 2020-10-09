@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding:0 ;
+
+}
+.header
+{
+    
+    width: 100%;
+    height: 100vh;
+}
+.video-background
+{
+    position: absolute;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    width:auto;
+    height:auto;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9)
+{
+    .video-background
+    {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9)
+{
+    .video-background
+    {
+        width:auto;
+        height: 100%;
+    }
+}
+.logo
+{
+    margin:25px;
+    height:40px;
+}
+.welcome
+{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    color: #fff;
+    top:150px;
+}
+.welcome h1
+{
+    font-size: 60px;
+    font-weight: 120;
+}
