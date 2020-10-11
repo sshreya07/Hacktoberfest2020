@@ -1,0 +1,107 @@
+.top{
+    display: flex;
+    height: 70%;
+}
+.top-left
+{
+    height: 100%;
+    
+    width: 55%;
+}
+.top-right{
+    height: 100%;
+    width: 55%;
+    background-image: url(lunch.jpeg);
+}
+h3{
+    margin-left: 180px;
+}
+input{
+    height: 45px;
+    width: 300px;
+}
+#location-form{
+            width: 60%;
+            margin-left: 180px;
+}
+.form-control{
+           
+            background: transparent;
+            
+            border: 1px solid gray;
+            color: rgb(238, 227, 227);
+            font-size: 18px;
+            margin-left:200px;
+            border-radius: 0;
+            
+}
+form .submit{
+    background:#ff5722;
+    border-color: transparent;
+    color: rgba(253, 244, 244, 0.938);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}	
+form .submit:hover{
+    background-color:#f44336;
+    cursor: pointer;
+}
+.jumbotron
+{
+    display: flex;   
+    height: 45%;
+    width: 100%;
+    padding: none;
+    margin: none;
+    
+}
+.container-fluid
+{
+    padding: 0;
+    background-color: rgba(253, 244, 244, 0.938);
+    margin: 0;
+    margin-right: 0;
+}
+.no-min-order
+{
+    height: 50%;
+    width: 40%;
+}
+.clear
+{
+    clear: both;
+}
+.live-track
+{
+    height: 50%;
+    width: 40%;
+}
+.fast
+{
+    height: 50%;
+    width: 40%;
+}
+#menu
+{
+    background-color: #ffffff;
+    width: 100%;
+    height: 70%;
+}
+.menu
+{
+    margin: 0 auto;
+}
+.info{
+    float: left;
+    height: 100%;
+    width: 40%;
+
+}
+.extra{
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+}
+
