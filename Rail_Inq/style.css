@@ -1,0 +1,14 @@
+body
+{
+    padding: none;
+    margin: none;
+    background-image: url(wall.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+}
+.nav-inner
+{
+    background: transparent;
+}
