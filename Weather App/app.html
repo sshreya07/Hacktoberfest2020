@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--META TAGS-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Cluster &bull; The simple, yet precise weather app!</title>
+  <link rel="icon" id="condition" href="img/cluster.png">
+  
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="The simple, yet precise weather app that averages the weather data from multiple sources to get the most acurate values!">
+
+  <!--STYLESHEETS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/master.css">
+
+  <!--FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600,700|Space+Mono:700|Roboto:900&display=swap" rel="stylesheet">
+</head>
+<body onload="checkLoad();">
+
+  <!--BAR-->
+  <div class="bar">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col text-center">
+          <span class="main-link">
+            <a href="https://github.com/madebyjeroen/cluster" title="View on GitHub" target="_blank" class="version hover"><span>v1.0</span></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--BAR END-->
+
+  <!--MAIN-->
+  <div class="main">
+    <div class="container">
+      <div class="row">
+        <!--WEATHER-->
+        <div id="weather" class="module col-sm-12 offset-sm-0 col-md-10 offset-md-1 col-10 offset-1">
+          <div class="row">
+            <div class="col-12">
+              <p class="location">
+                <span class="latitude placeholder" title="Latitude"></span>
+                <span class="longitude placeholder" title="Longitude"></span>
+              </p>
+            </div>
+            <div class="col-12 info">
+              <p class="condition placeholder"></p>
+            </div>
+            <div class="col-12 share">
+              <ul>
+                <li><a href="https://twitter.com/intent/tweet?url=https://madebyjeroen.github.io/cluster/&text=Check out this awesome and simple, yet precise weather app that @madebyjeroen created that averages the weather data from multiple sources!" target="_blank" title="Share on Twitter">Twitter</a></li>
+                <li><a href="https://www.facebook.com/sharer.php?u=https://madebyjeroen.github.io/cluster/" target="_blank" title="Share on Facebook">Facebook</a></li>
+                <li><a href="mailto:?subject=Cluster - The simple, yet precise weather app!&body=Check out this awesome and simple, yet precise weather app that averages the weather data from multiple sources: https://madebyjeroen.github.io/cluster/" target="_blank" title="Share using email">Email</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--WEATHER END-->
+    </div>
+  </div>
+  <!--MAIN END-->
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="container">
+      <p>Made by Jeroen</p>
+    </div>
+  </footer>
+  <!--FOOTER END-->
+  
+  <script src="js/app.js"></script>
+</body>
+</html>
