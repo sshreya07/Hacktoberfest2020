@@ -117,7 +117,7 @@ window.addEventListener('load', ()=> {
             const proxy = "https://cors-anywhere.herokuapp.com/";
 
             //?DARK SKY
-            const darkSkyApi = `${proxy}https://api.darksky.net/forecast/8acaa4fd4fd3f0f3a0c2bec840b53cb1/${lat},${long}`;
+            const darkSkyApi = `${proxy}https://api.darksky.net/forecast/<your-API-key>/${lat},${long}`;
 
             fetch(darkSkyApi)
             .then(response => {
@@ -138,7 +138,7 @@ window.addEventListener('load', ()=> {
             });
 
             //?OPENWEATHER
-            const openWeatherApi = `${proxy}https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=7ac70ad264964e7ecaf1ce122e5c0525&units=imperial`;
+            const openWeatherApi = `${proxy}https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=<your-API-key>&units=imperial`;
 
             fetch(openWeatherApi)
             .then(response => {
@@ -159,7 +159,7 @@ window.addEventListener('load', ()=> {
             });
 
             //?ACCUWEATHER
-            const accuWeatherKey = `${proxy}http://dataservice.accuweather.com/locations/v1/cities/geoposition/search.json?apikey=nhLGyi9B4iEKaTQptFWTcx7FBMlzWAlk&q=${lat},${long}`;
+            const accuWeatherKey = `${proxy}http://dataservice.accuweather.com/locations/v1/cities/geoposition/search.json?apikey=<your-API-key>&q=${lat},${long}`;
 
             fetch(accuWeatherKey)
             .then(response => {
@@ -168,7 +168,7 @@ window.addEventListener('load', ()=> {
             .then(accuWeatherKey => {
                 let key = String(accuWeatherKey.Key);
 
-                const accuWeatherApi = `${proxy}http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=nhLGyi9B4iEKaTQptFWTcx7FBMlzWAlk&details=true`;
+                const accuWeatherApi = `${proxy}http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=<your-API-key>&details=true`;
 
                 fetch(accuWeatherApi)
                 .then(response => {
@@ -187,7 +187,7 @@ window.addEventListener('load', ()=> {
                 });
 
                 //?WEATHERBIT
-                const weatherbitApi = `${proxy}https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${long}&key=f8d19ac7c1d44147a521f835a6a618ca&units=I`;
+                const weatherbitApi = `${proxy}https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${long}&key=<your-API-key>&units=I`;
 
                 fetch(weatherbitApi)
                 .then(response => {
